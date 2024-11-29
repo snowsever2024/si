@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바다 유치원 디스코드 서버 규칙</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(color.png); /* 겨울 배경 이미지 */
+            background-size: cover;
+            background-position: center;
+            color: #1e3a5f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 800px;
+            width: 90%;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #375a7f;
+            margin-bottom: 10px;
+        }
+        .rule-warning {
+            font-size: 1.5em; /* 폰트 크기 조정 */
+            color: #d9534f; /* 경고 색상 */
+            margin-bottom: 20px;
+            white-space: nowrap; /* 한 줄로 표시 */
+        }
+        .info-text {
+            font-size: 1.2em; /* 설명 폰트 크기 */
+            margin-bottom: 20px;
+        }
+        .accordion {
+            text-align: left;
+        }
+        .accordion-item {
+            margin-bottom: 10px;
+        }
+        .accordion-button {
+            width: 100%;
+            padding: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: white; /* 흰색 배경 */
+            color: black; /* 검정색 글씨 */
+            border: 1px solid #375a7f; /* 버튼 테두리 색상 */
+            border-radius: 5px;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.3s, color 0.3s; /* 색상 변화 추가 */
+        }
+        .accordion-button:hover {
+            background-color: #f0f0f0; /* 버튼 호버 색상 */
+            color: black; /* 호버 시 글씨색 유지 */
+        }
+        .accordion-content {
+            padding: 10px;
+            background-color: #f0f8ff;
+            display: none;
+            border-radius: 5px;
+            color: #1e3a5f;
+            font-size: 1em;
+        }
+        .heart-button {
+            font-size: 1.5em; /* 하트 버튼 크기 조정 */
+            background-color: transparent; /* 배경 투명 */
+            border: none; /* 테두리 없음 */
+            cursor: pointer; /* 커서 포인터 */
+            color: #ff4081; /* 하트 색상 */
+            margin-top: 20px; /* 상단 여백 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>바다 유치원 서버 규칙</h1>
+        <div class="rule-warning">규칙을 지키지 않는 점.<br>규칙을 어겨 받은 불이익은 저희 관리진이 책임 지지 않습니다.</div>
+        <div class="info-text">버튼을 누르시면 자세한 규칙을 볼 수 있습니다.</div>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-button">1. 규칙에 기제가 되어 있지 않는 걸 이용시 대한 처벌</button>
+                <div class="accordion-content">
+                    <p>1조 1항: 규칙에 어긋난 행동에 반박은 48시간 내로 항의 ( 즉 본인 처벌에 대한 항의 )</p>
+                    <p>1조 2항: 규칙에 허점을 이용 할시 강력한 제재</p>
+                    <p>1조 3항: 규칙에 없는 상황이 발생시 관리진 회의 하에 처리</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button">2. 채팅&보이스에 대한 처벌</button>
+                <div class="accordion-content">
+                    <p>2조 1항: 게임 통방은 5명/ 일반 통방 5명 이상으로 제한됩니다</p>
+                    <p>2조 2항: 채널에 맞게 사용 하지 않을시</p>
+                    <p>2조 3항: 단타 5번 / 임티 5번 / 같은 말 5번</p>
+                    <p>2조 4항: 예의 또는 심한 욕설 또는 패드립</p>
+                    <p>2조 5항: 통화방 내에서 상대에게 불쾌감을 주는 행동 또는 심한 욕설 또는 의도적으로 소음이나 들낙할시 경고1회 </p>
+                    <p>2조 6항: 수위방이 아닌곳에서 수위가 있는 발언</p>
+                    <p>2조 7항: 음성 채널을 5번 이상 들낙 할시</p>
+                    <p>2조 8항: 소음 공해할 시</p>
+                    <p>2조 9항: 수위가 있는 이름 & 비속어 & 저격 하는 이름 </p>
+                    <p>2조 10항: 초면에 반말 / 공격적인 말투 / 실례가 되는 질문 등 </p>
+                    <p>2조 11항: 소외되는 행동을 할 시 경고 2회</p>
+                    <p>2조 12항: 일베 / 정치적 발언 페미 언급 할 시 경고 3회</p>
+                    <p>2조 13항: 울타리 친목할시 경고 3회</p>
+                    <p>2조 14항: 구걸채팅방 이외에 다른 채팅방에 구걸 행위를 할시 (주의 1회 ~ 경고 1회) </p>
+                    <p>2조 15항: 봇 사용 후 제대로 봇 정리 하지 않는 경우 (주의 1회 ~ 경고 1회)</p>
+                    <p>2조 16항: 봇 명령어 방이 아닌 다른 채널에서 봇 명령어를 사용 할 시 (주의 1회 ~ 경고 1회)</p>
+                    <p>2조 17항: 메인 채팅방 또는 튜페이스 채팅방에서 섹드립, 자살과같은 발언을 할시 (주의 1회 ~ 경고 2회) </p>
+                    <p>2조 18항: 불쾌한 사진을 올렸을 시 (주의 1회 ~ 경고 2회)</p>
+                    <p>2조 19항: 사건 후 언급 할 시(주의 1회 ~ 경고 3회) </p>
+                    <p>2조 20항: 사건에 비협조적일때 (주의 1회 ~ 경고 3회) </p>
+                    <p>2조 21항: 그 밖에 상황은 관리자가 판단 하여 경고를 지급 할수 있습니다</p>
+                    <p>2조 22항: 그 밖에 상황은 관리자가 판단 하여 경고를 지급 할수 있습니다</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button">3. 프로필에 대한 규칙</button>
+                <div class="accordion-content">
+                    <p>3조 1항: 4명이상 맞추지 않기</p>
+                    <p>3조 2항: 수위가 쎄거나 불쾌감을 줄수 있는 프사는 금지</p>
+                    <p>3조 3항: 소개글  자살 / 죽자 / 부정적 글은 삭제</p>
+                    <p>3조 4항: 남을 저격 하는 상메 금지</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button">4. 게임에 대한 규칙</button>
+                <div class="accordion-content">
+                    <p>4조 1항: 게임 도중 남탓 / 비난 / 조롱 모두 포함</p>
+                    <p>4조 2항: 서로간에 존중 하지 않거나 또는 심한 욕설 & 패드립</p>
+                    <p>4조 3항: 게임 도중 고의적으로 트롤 하는 행위</p>
+                    <p>4조 4항: 게임방에서 인원수 제한을 지키지 않거나 불쾌감 있게 들낙 또는 소음 방해</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button">5. 서버 밴 & 기타 사항</button>
+                <div class="accordion-content">
+                    <p>5조 1항: 갠디로 가서 서버 뿌리는 행위</p>
+                    <p>5조 2항: 타섭 언급 / 광고 언급 등등</p>
+                    <p>5조 3항: 심각한 플러팅 & 여미새 / 남미새 /여왕벌도 포함</p>
+                    <p>5조 4항: 내소개에 타섭 링크 기재 상메에 타섭 홍보 글</p>
+                    <p>5조 5항: 서버 인원수 빼갈시 차단</p>
+                    <p>5조 6항: 그 밖에 상황은 관리자가 판단하여 서버 밴을 할수 있습니다</p>
+                </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button" style="text-align: left;">6. 서버 차단</button>
+                <div class="accordion-content" style="text-align: left;">
+                    <p>6조 1항: 여왕벌이신 분</p>
+                    <p>6조 2항: 나이 속이신 분</p>
+                    <p>6조 3항: 타섭블랙이신 분</p>
+                    <p>6조 4항: 싸움 유도 하신 분</p>
+                    <p>6조 5항: 타인 도용 하신 분</p>
+                    <p>6조 6항: 공론화 올라가신 분</p>
+                    <p>6조 7항: 서버 비하를 하신 분</p>
+                    <p>6조 8항: 여미새/남미새이신 분</p>
+                    <p>6조 9항: 허위사실 유포 하신 분</p>
+                    <p>6조 10항: 개인정보 유출 하신 분</p>
+                    <p>6조 11항: 뒷메/앞메/뒷방 하신 분</p>
+                    <p>6조 12항: 상대방에게 협박 하신 분</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button" style="text-align: left;">규칙 위반에 따른 불이익</button>
+                <div class="accordion-content" style="text-align: left;">
+                    <p>7조 1항: 규칙을 지키지 않는 점, 규칙을 어겨 받은 불이익은 저희 관리진이 책임지지 않습니다.</p>
+                    <p>7조 2항: 경고 누적 5회시 서버 밴</p>
+                    <p>7조 3항: 규칙을 읽지 않으면 불이익을 받을 수 있는 점 양해 바랍니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const accordionButtons = document.querySelectorAll('.accordion-button');
+        const heartButton = document.getElementById('heartButton');
+        const heartCountDisplay = document.getElementById('heartCount');
+        let heartCount = 0;
+        let hasLiked = false; // 사용자가 하트를 클릭했는지 여부
+
+        // 아코디언 기능
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+
+        // 하트 버튼 클릭 시 하트 수 증가
+        heartButton.addEventListener('click', () => {
+            if (!hasLiked) {
+                heartCount++;
+                heartCountDisplay.textContent = heartCount;
+                hasLiked = true; // 사용자가 하트를 클릭한 것으로 설정
+            } else {
+                alert('하트는 한 번만 클릭할 수 있습니다.');
+            }
+        });
+    </script>
+</body>
+</html>
